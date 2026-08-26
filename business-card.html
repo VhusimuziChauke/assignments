@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vhusimuzi Chauke</title>
+  </head>
+  <body>
+    <header id>
+      <h1>Vhusimuzi Chauke</h1>
+      <h2>Aspiring Full-Stack Developer</h2>
+    </header>
+    <hr />
+    <main>
+      <section class="contact-info">
+        <h2>Contact Information</h2>
+
+        <p>
+          <strong>Tel:</strong>
+          <!-- href="tel:..." makes the phone number clickable, especially on mobile. -->
+          <a href="tel:+27795996868">+27 79 599 6868</a>
+        </p>
+
+        <p>
+          <strong>Email:</strong>
+          <!-- mailto opens the user's email application -->
+          <a href="mailto:vchauke@mailbox.co.za">vchauke@mailbox.co.za</a>
+        </p>
+
+        <p>
+          <!-- City: Just displays your location. -->
+          <strong>City:</strong>
+          Johannesburg, South Africa
+        </p>
+      </section>
+    </main>
+    <section>
+      <nav id="socials">
+        <h3>Here are my socials:</h3>
+        <a
+          href="https://www.linkedin.com/in/vhusimuzi-chauke-53ba5516b/"
+          target="_blank"
+          >LinkedIn</a
+        >
+        <a href="https://github.com/VhusimuziChauke" target="_blank">Github</a>
+        <a href="https://www.facebook.com/vhusimuzi.chauke" target="_blank"
+          >Facebook</a
+        >
+      </nav>
+    </section>
+    <section>
+      <h2>Contact Me</h2>
+      <form action="mailto:vchauke@mailbox.co.za" method="post">
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required
+          placeholder="your name"
+        /><br /><br />
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          placeholder="your email"
+        /><br /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea
+          id="message"
+          name="message"
+          rows="4"
+          cols="50"
+          required
+          placeholder="your message"
+        ></textarea
+        ><br /><br />
+
+        <input type="submit" value="Send Message" />
+      </form>
+    </section>
+    <footer id="footer">
+      <address id="address">
+        Johannesburg, South Africa<br />
+        Tel: +27 795996868<br />
+        Email: <a href="mailto:vchauke@mailbox.co.za">vchauke@mailbox.co.za</a>
+      </address>
+    </footer>
+  </body>
+</html>
